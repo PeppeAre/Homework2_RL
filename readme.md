@@ -4,20 +4,18 @@
 
 ## Description
 
-This repository contains the solution for Homework 2 of the Robotics Lab 2025 course. The project focuses on developing and implementing kinematic and vision-based controllers for a KUKA iiwa manipulator arm within the ROS 2 simulation environment. It utilizes the Kinematics and Dynamics Library (KDL) for kinematic control and the `aruco_ros` package for vision-based setup.
-
-The implemented solutions cover points 1A, 1B, 1C, 2A, 2B, and 2C from the official homework assignment.
+This repository contains the solution for Homework 2 of the Robotics Lab 2025 course.
 
 ## Prerequisites
 
 Before building, ensure you have a working ROS 2 Humble Hawksbill environment installed. The project relies on the following key components and packages:
 
-* **ROS 2 Humble** (and its core dependencies)
-* **Gazebo** (for simulation)
-* **ros2_control** (for hardware/sim interfacing)
-* **MoveIt 2** (for planning components)
-* **KDL** (via `orocos_kdl_vendor` or similar ROS 2 packages)
-* **Aruco_ROS** (included in this workspace)
+* **ROS 2 Humble**
+* **Gazebo**
+* **ros2_control**
+* **MoveIt 2**
+* **KDL**
+* **Aruco_ROS**
 
 ## Build Instructions
 
