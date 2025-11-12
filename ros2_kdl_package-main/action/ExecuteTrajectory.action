@@ -1,0 +1,9 @@
+# Goal: Trigger per avviare la traiettoria
+bool start
+---
+# Result: Indica se la traiettoria è stata completata
+bool success
+string message
+---
+# Feedback: Invia l'errore di posizione durante l'esecuzione
+float64 current_error_norm

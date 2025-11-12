@@ -1,0 +1,21 @@
+ros2_kdl_node:
+  ros__parameters:
+    # Parametri standard del nodo
+    cmd_interface: "position" # Opzioni: "position", "velocity", "effort"
+    traj_type: "linear"       # Opzioni: "linear", "circular"
+    s_type: "trapezoidal"     # Opzioni: "trapezoidal", "cubic"
+
+    # Parametri Punto 1a
+    traj_duration: 1.5
+    acc_duration: 0.5
+    total_time: 1.5
+    trajectory_len: 150
+    Kp: 5.0
+    # Posizione finale
+    end_position_x: 0.4
+    end_position_y: 0.2
+    end_position_z: 0.6
+    
+    # --- Parametri Punto 1b - 2b---
+    ctrl: "velocity_ctrl" # Opzioni: "velocity_ctrl", "velocity_ctrl_null, vision"
+    lambda: 5.0 # Fattore di scaling per joint limit avoidance
